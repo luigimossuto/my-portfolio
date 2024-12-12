@@ -17,6 +17,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              variante2={"mt-4"}
               imgPath={nuances}
               isBlog={false}
               title="Nuances"
@@ -28,6 +29,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              variante2={"mt-5"}
               imgPath={cantina}
               isBlog={false}
               title="Cantina Sapori di Passione"
@@ -42,7 +44,7 @@ function Projects() {
               imgPath={geolier}
               isBlog={false}
               title="Geolier"
-              description="Sito di Geolier. Promozione del merchandising e dei realtivi album dell'artista. questo sito web è stato creato e progettato da me utilizzando React Vite (JSX e Tailwind CSS). In più Ho utilizzato varie librerie per sviluppare questo sito: React Router, React Hook Form, NextUi e daisyUi."
+              description="Ho creato e progettato il sito ufficiale di Geolier per promuovere il merchandising e gli album dell'artista. Il sito è sviluppato con React Vite (JSX e Tailwind CSS) e include librerie come React Router, React Hook Form, NextUI e daisyUI."
               ghLink="https://github.com/luigimossuto/sito-geolier-didattico"
               demoLink="https://geolier-brief.netlify.app/"
             />
