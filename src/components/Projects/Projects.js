@@ -42,7 +42,7 @@ function Projects() {
               imgPath={geolier}
               isBlog={false}
               title="Geolier"
-              description="Sito di Geolier. Promozione del merchandising e dei realtivi album dell'artista."
+              description="Sito di Geolier. Promozione del merchandising e dei realtivi album dell'artista. questo sito web è stato creato e progettato da me utilizzando React Vite (JSX e Tailwind CSS). In più Ho utilizzato varie librerie per sviluppare questo sito: React Router, React Hook Form, NextUi e daisyUi."
               ghLink="https://github.com/luigimossuto/sito-geolier-didattico"
               demoLink="https://geolier-brief.netlify.app/"
             />
