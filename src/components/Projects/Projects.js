@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import nuances from "../../Assets/Projects/foto-home-nuances.jpg";
 import cantina from "../../Assets/Projects/foto-home-cantina-sapori-di-passione.jpg";
-import geolier from "../../Assets/Projects/foto-home-sito-geolier.png";
+import geolier from "../../Assets/Projects/foto-home-geolier.jpg";
 
 function Projects() {
   return (
