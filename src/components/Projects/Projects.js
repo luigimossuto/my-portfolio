@@ -5,6 +5,8 @@ import Particle from "../Particle";
 import nuances from "../../Assets/Projects/foto-home-nuances.jpg";
 import cantina from "../../Assets/Projects/foto-home-cantina-sapori-di-passione.jpg";
 import geolier from "../../Assets/Projects/foto-home-geolier.jpg";
+import front_end_budgy from "../../Assets/Projects/foto-home-budgy.jpg";
+import back_end_budgy from "../../Assets/Projects/foto-back-end-budgy.jpg";
 
 function Projects() {
   return (
@@ -47,6 +49,25 @@ function Projects() {
               description="Ho creato e progettato il sito ufficiale di Geolier per promuovere il merchandising e gli album dell'artista. Il sito è sviluppato con React Vite (JSX e Tailwind CSS) e include librerie come React Router, React Hook Form, NextUI e daisyUI."
               ghLink="https://github.com/luigimossuto/sito-geolier-didattico"
               demoLink="https://geolier-brief.netlify.app/"
+            />
+          </Col>
+          <Col md={5} className="project-card">
+            <ProjectCard
+              imgPath={front_end_budgy}
+              isBlog={false}
+              title="front-end Budgy"
+              description="App web per la gestione del budget personale con tracciamento di entrate e uscite. Include autenticazione, categorie personalizzabili e dashboard con riepilogo mensile."
+              ghLink="https://github.com/luigimossuto/REACT-budget-app"
+              demoLink="https://budgy-luigi.vercel.app/"
+            />
+          </Col>
+          <Col md={5} className="project-card">
+            <ProjectCard
+              imgPath={back_end_budgy}
+              isBlog={false}
+              title="back-end Budgy"
+              description="API RESTful per l'app web di gestione del budget personale. Gestisce autenticazione, categorie, entrate e uscite, fornendo endpoint per la gestione dei dati."
+              ghLink="https://github.com/luigimossuto/back-end-budget-laravel"
             />
           </Col>
         </Row>
