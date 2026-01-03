@@ -51,7 +51,7 @@ function Projects() {
               demoLink="https://geolier-brief.netlify.app/"
             />
           </Col>
-          <Col md={5} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={front_end_budgy}
               isBlog={false}
@@ -61,7 +61,7 @@ function Projects() {
               demoLink="https://budgy-luigi.vercel.app/"
             />
           </Col>
-          <Col md={6} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={back_end_budgy}
               isBlog={false}
