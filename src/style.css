@@ -508,6 +508,9 @@ button:focus {
   padding: 20px !important;
   opacity: 0.8 !important;
   border-radius: 10px !important;
+  height: 260px !important;
+  object-fit: cover !important;
+  width: 100% !important;
 }
 
 .blog-img {
