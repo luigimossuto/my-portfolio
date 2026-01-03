@@ -5,8 +5,8 @@ import Particle from "../Particle";
 import nuances from "../../Assets/Projects/foto-home-nuances.jpg";
 import cantina from "../../Assets/Projects/foto-home-cantina-sapori-di-passione.jpg";
 import geolier from "../../Assets/Projects/foto-home-geolier.jpg";
-import front_end_budgy from "../../Assets/Projects/foto-home-budgy.jpg";
-import back_end_budgy from "../../Assets/Projects/foto-back-end-budgy.jpg";
+import front_end_budgy from "../../Assets/Projects/foto-home-budgy.png";
+import back_end_budgy from "../../Assets/Projects/foto-back-end-budgy.png";
 
 function Projects() {
   return (
@@ -61,7 +61,7 @@ function Projects() {
               demoLink="https://budgy-luigi.vercel.app/"
             />
           </Col>
-          <Col md={5} className="project-card">
+          <Col md={6} className="project-card">
             <ProjectCard
               imgPath={back_end_budgy}
               isBlog={false}
